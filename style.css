@@ -1,0 +1,58 @@
+body {
+    /* padding: 30px; */
+    background-image: url(./FerrariBackground.jpg);
+    background-repeat:no-repeat;
+    background-size: cover contain;
+    background-position:center;
+    /* background-attachment: fixed; */
+    height: 100vh;
+    font-family: "San Francisco";
+}
+
+
+div ul li a {
+    color: white;
+    margin-right: 20px;
+    margin-right: 20px;
+    font-size: 1.3rem;
+    display: inline-block;
+    line-height: 40px;
+}
+
+div ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.parent {
+    position:relative;
+  }
+  
+   .child {
+    position:absolute;
+    transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right;
+  } 
+
+
+#magazine {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+p{
+    color: white;
+}
+
+#ferrari {
+    border-bottom: 4px solid yellow;
+}
+
+
+
+
+
+/* text-orientation: upright;
+text-orientation: sideways-right;
+text-orientation: sideways;
+text-orientation: use-glyph-orientation; */
