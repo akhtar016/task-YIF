@@ -6,7 +6,7 @@ body {
     background-position:center;
     /* background-attachment: fixed; */
     height: 100vh;
-    font-family: "San Francisco";
+    font-family: "San Francisco",sans-serif;
 }
 
 
@@ -28,7 +28,7 @@ div ul li a:hover {
     position:relative;
   }
   
-   .child {
+.child {
     position:absolute;
     transform: translateX(-100%) rotate(-90deg);
     transform-origin: right;
@@ -40,19 +40,20 @@ div ul li a:hover {
     font-size: 1.8rem;
 }
 
+
 p{
     color: white;
 }
 
-#ferrari {
+.mb-yellow {
     border-bottom: 4px solid yellow;
 }
 
+.mb-red {
+    border-bottom: 4px solid red;
+}
 
+.custom-color {
+    color: #b7b7b7;
+}
 
-
-
-/* text-orientation: upright;
-text-orientation: sideways-right;
-text-orientation: sideways;
-text-orientation: use-glyph-orientation; */
